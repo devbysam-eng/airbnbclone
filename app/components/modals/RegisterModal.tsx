@@ -75,6 +75,15 @@ const RegisterModal = () => {
         errors={errors}
         required
       />
+      <Input
+        id="confirmPassword"
+        label="Confirm Password"
+        type="password"
+        disabled={isLoading}
+        register={register}
+        errors={errors}
+        required
+      />
     </div>
   );
 
